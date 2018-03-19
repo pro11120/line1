@@ -1,4 +1,4 @@
-<<?php
+<?php
 
 $API_URL = 'https://api.line.me/v2/bot/message/reply';
 $ACCESS_TOKEN = 'j9c3KJKt2+3aoVnyTtp1yJm9lnpzsuRb+nz87EkXGY48+5r8KX/8LcUmj3ZRDXfgz7GqXnp7//BYAWTdnOmNmLigr8y/Utq3/zurwITjzPX/X5M7JYtr7ePEsT0+bRe887TccsbZOOZ+DoK7IaQFxQdB04t89/1O/w1cDnyilFU='; // Access Token ค่าที่เราสร้างขึ้น
