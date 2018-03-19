@@ -77,5 +77,3 @@ foreach ($events as $event) {
 
 }  
 ?>
-
-?>
