@@ -8,6 +8,12 @@ $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
 $outputText = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder("text message");
 $bot->replyMessage($event->getReplyToken(), $outputText);
+if (($event instanceof \LINE\LINEBot\Event\MessageEvent\TextMessage)) {
+		$messageText=strtolower(trim($event->getText()));
+		switch ($messageText) {
+		case "text" : 
+			$outputText = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder("text message");
+			break;
 if ( sizeof($request_array['events']) > 0 )
 {
 
