@@ -16,11 +16,11 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "สวัสดีค่ะ";
-}else if($arrJson['events'][0]['message']['text'] == "ชื่ออะไร"){
+}else if($arrJson['events'][0]['message']['text'] == "ลงGEผิดจะแก้ยังไง"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "ฉันยังไม่มีชื่อนะ";
+  $arrPostData['messages'][0]['text'] = "นำบัตรประจำตัวนักศึกษามาที่ตึกสำนักงานทะเบียนแล้วมาติดต่อที่เจ้าหน้าที่นะคะ";
 }else if($arrJson['events'][0]['message']['text'] == "ทำอะไรได้บ้าง"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
