@@ -15,7 +15,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "สวัสดีค่ะ";
+  $arrPostData['messages'][0]['text'] = "";
 }else if($arrJson['events'][0]['message']['text'] == "ลงGEผิดจะแก้ยังไง"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
