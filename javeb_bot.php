@@ -11,7 +11,7 @@ $arrHeader = array();
 $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
-if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
+if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ","สวัสดีครับ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
