@@ -20,7 +20,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ","�
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "100";
+  $arrPostData['messages'][0]['text'] = "สิบบาท";
 }else if($arrJson['events'][0]['message']['text'] == "เปิดตอนไหน"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
