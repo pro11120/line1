@@ -15,7 +15,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ","�
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "";
+  $arrPostData['messages'][0]['text'] = "สวัสดีค่ะ ต้องการสอบถามข้อมูลเบื้องต้นเกี่ยวกับเรื่องไหนคะ";
 }else if($arrJson['events'][0]['message']['text'] == "ค่าเทอม"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
