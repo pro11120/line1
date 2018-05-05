@@ -251,31 +251,6 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "";
-}else if($arrJson['events'][0]['message']['text'] == "เปิดรายวิชา"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "{
-"type": "imagemap",
-"baseUrl": "https://www.picz.in.th/image/YLGehE",
-"altText": "this is an imagemap",
-"baseSize": {
-"height": 800,
-"width": 400
-},
-"actions": [
-{
-"type": "uri",
-"linkUri": "https://picz.in.th/",
-"area": {
-"x": 0,
-"y": 0,
-"width": 800,
-"height": 400
-}
-}
-]
-}";
 }else{
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
