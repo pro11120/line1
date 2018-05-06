@@ -95,6 +95,86 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "จะลงทะเบียนยังไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "จะลงทะเบียนยังไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "จะลงทะเบียนยังไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "จะลงทะเบียนยังไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "จะลงทะเบียนยังไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "วิธีการลงทะเบียน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "วิธีการลงทะเบียน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนไหมค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนไหมคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+  }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนไหมครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+  }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนไหมคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+  }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนไหมค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนเรียนไหมค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนเรียนไหมคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนเรียนไหมครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+ }else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงทะเบียนเรียนไหมคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
  }else if($arrJson['events'][0]['message']['text'] == "ลงเรียน GE"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
