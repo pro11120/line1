@@ -210,26 +210,6 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
-}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงGEไหมค่ะ"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
-}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงGEไหมคะ"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
-}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงGEไหมครับ"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
-}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงGEไหมคับ"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
 }else if($arrJson['events'][0]['message']['text'] == "รายวิชาที่เปิดสอน"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
