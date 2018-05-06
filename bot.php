@@ -14,7 +14,7 @@ if($arrJson['events'][0]['message']['text'] == "เทส"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData{ 
+  $arrPostData['messages'][0]['text'] ="{ 
   	"line":{
   		"type": "template",
   		"altText": "test button",
@@ -35,7 +35,7 @@ if($arrJson['events'][0]['message']['text'] == "เทส"){
   				]
   			}
   		}
-  	};
+  	}";
  }else if($arrJson['events'][0]['message']['text'] == "สวัสดีคับ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
