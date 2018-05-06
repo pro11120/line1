@@ -230,6 +230,66 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงวิชาGEไหมค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงวิชาGEไหมคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงวิชาGEไหมครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงวิชาGEไหมคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงเรียนวิชาGEไหมค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงเรียนวิชาGEไหมคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงเรียนวิชาGEไหมครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีการลงเรียนวิชาGEไหมคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "หนูจะลงเรียนวิชาGEยังไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "หนูจะลงเรียนวิชาGEยังไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "ผมจะลงเรียนวิชาGEยังไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
+}else if($arrJson['events'][0]['message']['text'] == "ผมจะลงเรียนวิชาGEยังไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "reg.npru.ac.th/registrar/home.asp";
 }else if($arrJson['events'][0]['message']['text'] == "รายวิชาที่เปิดสอน"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
