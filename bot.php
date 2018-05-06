@@ -164,7 +164,10 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่<br>วันจันทร์ถึงวันศุกร์และวันอาทิตย์<br>ตั้งแต่เวลา 08.30 - 16.30 น<br>ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
 }else if($arrJson['events'][0]['message']['text'] == "เปิดให้บริการตอนไหนคะ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
