@@ -485,27 +485,42 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
 วันจันทร์ถึงวันศุกร์และวันอาทิตย์
 ตั้งแต่เวลา 08.30 - 16.30 น
 ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
-}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษต้องทำยังไงค่ะ"){
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษยังไงค่ะ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "";
-}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษต้องทำยังไงคะ"){
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษยังไงคะ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "";
-}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษต้องทำยังไงครับ"){
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษยังไงครับ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "";
-}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษต้องทำยังไงคับ"){
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษยังไงคับ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "";
-}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษต้องทำยังไงค้าบ"){
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษยังไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีเปิดหมู่เรียนพิเศษไหมคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีเปิดหมู่เรียนพิเศษไหมค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "";
+}else if($arrJson['events'][0]['message']['text'] == "มีวิธีเปิดหมู่เรียนพิเศษไหมคะ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
