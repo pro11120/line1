@@ -1499,6 +1499,150 @@ https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "กรุณากดปุ่มเมนูเพื่อสอบถามเรื่องที่ต้องทราบ";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษตอนไหน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษตอนไหนครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษตอนไหนคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษตอนไหนค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+ }else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษตอนไหนค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษตอนไหนคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษวันไหน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษวันไหนครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษวันไหนคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษวันไหนค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+ }else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษวันไหนค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษวันไหนคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไร"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษตอนไหนครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไรคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไรค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+ }else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไรค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไรคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไหร่"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไหร่ครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไหร่คับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไหร่ค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+ }else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไหร่ค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษเมื่อไหร่คะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/
+  หรือ คลิกที่ปุ่มเมนู ข่าวสารงานทะเบียน";
 }else if($arrJson['events'][0]['message']['text'] == ""){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
