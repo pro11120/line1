@@ -1738,6 +1738,114 @@ https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
 หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบยังไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบยังไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบยังไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบยังไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบยังไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไร"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไรครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไรคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไรค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไรค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
+}else if($arrJson['events'][0]['message']['text'] == "ทำเรื่องจบอย่างไรคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาติดต่อที่ตึกสำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+หรือ โทรศัพท์: 034-109300 ต่อ 3892-3893";
 }else if($arrJson['events'][0]['message']['text'] == ""){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
