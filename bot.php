@@ -2432,6 +2432,150 @@ https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "สามารถติดตามข่าวสารได้ที่ : http://ac.npru.ac.th/";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอม"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนบ้าง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนบ้างครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนบ้างคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนบ้างค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนบ้างค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "สามารถจ่ายค่าเทอมได้ที่ไหนบ้างคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่บ้างไหน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนบ้างครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนบ้างคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนบ้างค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนบ้างค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
+}else if($arrJson['events'][0]['message']['text'] == "จ่ายค่าเทอมได้ที่ไหนบ้างคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "สามารถจ่ายได้ที่ตึกสำนักงานส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยราชภัฏนครปฐม 
+  หรือ ธนาคารที่เข้าร่วมในใบชำระค่าลงทะเบียน";
 }else if($arrJson['events'][0]['message']['text'] == ""){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
