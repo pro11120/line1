@@ -775,6 +775,534 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่ม"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำยังไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำยังไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำยังไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำยังไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำยังไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำยังไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไร"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไรครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไรคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไรค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไรค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บล่มทำอย่างไรคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่ม"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไรครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไรคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไรค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไรค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบล่มทำอย่างไรคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ทำยังไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ทำยังไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ทำยังไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ทำยังไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ทำยังไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ทำยังไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไร"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไรครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไรคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไรค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไรค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำอย่างไรคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ทำยังไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้คับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้คะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไง"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไงครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไงคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไงค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไงค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไงคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไร"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไรครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไรคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไรค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไรค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
+}else if($arrJson['events'][0]['message']['text'] == "เข้าไม่ได้ทำอย่างไรคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาคลิกที่ลิงก์ด้านล่าง
+https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
 }else if($arrJson['events'][0]['message']['text'] == ""){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
