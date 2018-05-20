@@ -980,6 +980,102 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีค่ะ"){
 วันจันทร์ถึงวันศุกร์และวันอาทิตย์
 ตั้งแต่เวลา 08.30 - 16.30 น
 ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดตอนไหน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดตอนไหนครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดตอนไหนคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดตอนไหนค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดตอนไหนค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดตอนไหนคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดเวลาไหน"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดเวลาไหนครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดเวลาไหนคับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดเวลาไหนค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดเวลาไหนค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
+}else if($arrJson['events'][0]['message']['text'] == "เปิดเวลาไหนคะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เปิดให้บริการตั้งแต่
+วันจันทร์ถึงวันศุกร์และวันอาทิตย์
+ตั้งแต่เวลา 08.30 - 16.30 น
+ปิดให้บริการวันเสาร์และวันหยุดนักขัตฤกษ์";
 }else if($arrJson['events'][0]['message']['text'] == "เปิดหมู่เรียนพิเศษยังไงค่ะ"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
