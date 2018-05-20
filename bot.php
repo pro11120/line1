@@ -1789,6 +1789,138 @@ https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
 ( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้คับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้ค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บเข้าไม่ได้คะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บไซต์เข้าไม่ได้ครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บไซต์เข้าไม่ได้คับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บไซต์เข้าไม่ได้ค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บไซต์เข้าไม่ได้ค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เว็บไซต์เข้าไม่ได้คะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้คับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้ค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบเข้าไม่ได้คะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบไซต์เข้าไม่ได้ครับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบไซต์เข้าไม่ได้คับ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบไซต์เข้าไม่ได้ค้าบ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบไซต์เข้าไม่ได้ค่ะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
+}else if($arrJson['events'][0]['message']['text'] == "เวบไซต์เข้าไม่ได้คะ"){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กรุณาCopyลิงก์ด้านล่างแล้วนำไปวางในช่องค้นหาเว็บเบราว์เซอร์
+( reg2.npru.ac.th/registrar/login.asp?avs1014185221=15 )";
 }else if($arrJson['events'][0]['message']['text'] == "สอบถาม"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
