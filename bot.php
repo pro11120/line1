@@ -3950,7 +3950,7 @@ https://reg2.npru.ac.th/registrar/login.asp?avs1014185221=15";
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "ฉันไม่เข้าใจคำสั่ง";
+  $arrPostData['messages'][0]['text'] = "นี่คือระบบตอบรับอัตโนมัติ หากต้องการติดต่อสอบถามกรุณาคลิกลิงค์ https://www.facebook.com/สำนักส่งเสริมวิชาการและงานทะเบียน-NPRUFan-Page-354710637939796/";
 }
  
  
